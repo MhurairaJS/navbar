@@ -2,8 +2,10 @@
     padding: 0%;
     margin: 0%;
 }
+
 ul {
-    background-color: rgb(28, 134, 134); color: white;
+    background-color: rgb(28, 134, 134);
+    color: white;
     list-style: none;
     text-align: end;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -11,11 +13,20 @@ ul {
     font-style: normal;
     font-size: 0.8rem;
 }
+
 li {
     display: inline-block;
     padding: 15px 20px;
     cursor: pointer;
 }
+
 li:hover {
     color: #0c1618;
+}
+
+img {
+    text-align: start;
+    display: block;
+    margin-block-end: -35px;
+padding-top: 10px;
 }
